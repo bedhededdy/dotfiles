@@ -10,7 +10,7 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
 fi
 # Aliases
 alias py='python3'
-alias update='sudo pacman -Syu; yay -Syu'
+alias update='yay -Syu'
 alias fourier='ssh epinkston@fourier.cs.iit.edu'
 alias install='sudo pacman -Sy'
 alias ..='cd ..'
